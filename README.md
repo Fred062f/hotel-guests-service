@@ -46,7 +46,6 @@ This API allows you to manage guest records in a SQLite database. You can perfor
       ...
   ]
   ```
--
 
 - **GET /guests/int:id**  
   Retrieves a specific guest by ID.
@@ -66,7 +65,7 @@ This API allows you to manage guest records in a SQLite database. You can perfor
     ```
   - `404 Not Found` if the guest does not exist.
 
-  - **DELETE /guests/int:id**  
+- **DELETE /guests/int:id**  
   Deletes a guest by ID.
 
   **Response**:  
